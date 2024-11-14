@@ -1,0 +1,138 @@
+(footprint "Lapel_Pin_Clip"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.556 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5a8c9cb7-4f07-4bb8-8527-b5df4c19faba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Lapel_Pin_Clip"
+		(at 0 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a21953bd-6eff-4a20-9f17-f7f625ac97a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Lapel_Pin_Clip"
+		(at 0 -7.112 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1347a9e8-d574-4557-9dc6-2a7c9099c588")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0cabcd4-d6d2-4eac-b39f-59efb31dbba5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4926f230-a935-4e2e-9e86-07b37ea84c89")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "dcb20af7-3d7a-4c5d-b5d7-ef61bde67e8b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.032 -1.524)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3685c56a-f4f4-4ede-9df1-a8311ceeee30")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd707bd3-7aa9-404d-aa7c-e0f8f27ddf6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 -2.75)
+		(size 1.5 0.6)
+		(drill oval 1.5 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "069683bf-2395-4ccc-9096-201614d6cc1b")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.1 3.1)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f896d61-25a5-4c88-8ccf-30a7687ca602")
+	)
+	(model "/home/iakop/Documents/KiCad/3dmodels/Bechmann-Engineering.models/Lapel Broche Lock.step"
+		(offset
+			(xyz 0 10 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+	(model "/home/iakop/Documents/KiCad/3dmodels/Bechmann-Engineering.models/Lapel Brooch Pin.step"
+		(offset
+			(xyz 10 0.1 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
+		)
+	)
+)
